@@ -99,6 +99,7 @@ class _HomeState extends State<Home> {
                   });
                 },
               ),
+              if (MediaQuery.of(context).size.width >= 600)
             const VerticalDivider(thickness: 1, width: 1),
             Expanded(
               child: IndexedStack(
